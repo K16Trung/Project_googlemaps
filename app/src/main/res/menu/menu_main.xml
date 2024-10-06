@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/mapNone"
-        android:title="None"/>
-    <item
-        android:id="@+id/mapNormal"
-        android:title="Normal"/>
-    <item
-        android:id="@+id/mapSatellite"
-        android:title="Satellite"/>
-    <item
-        android:id="@+id/mapHybrid"
-        android:title="Hybrid"/>
-    <item
-        android:id="@+id/mapTerrain"
-        android:title="Terrain"/>
+        android:id="@+id/action_map_type"
+        android:title="Map Type"
+        app:showAsAction="ifRoom" />
 </menu>
