@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     mapFragment.getMapAsync(this);
                 }
             } else {
-                Toast.makeText(this, "Unable to get current location.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Unable to get current location..", Toast.LENGTH_SHORT).show();
             }
         });
     }
