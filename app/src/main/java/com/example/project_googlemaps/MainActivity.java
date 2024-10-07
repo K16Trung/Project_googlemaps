@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 getLastLocation();
             } else {
-                Toast.makeText(this, "Permission denied.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Permission denied..", Toast.LENGTH_SHORT).show();
             }
         }
     }
